@@ -1,11 +1,19 @@
 body {
     margin: 0;
 }
-
+header {
+    max-width: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: space-between;
+    align-self:center;
+}
 /*---------------------------------------Top-------------------------------*/
 .top {
     display: grid;
     grid-template-columns: auto auto;
+    gap: 500px;
 }
 .navbar1 {
     display: flex;
@@ -59,6 +67,13 @@ body {
     cursor: pointer;
 }
 /*---------------------------------------container1-------------------------------*/
+.container1 {
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+}
 .title {
     display: flex;
     justify-content: center;
@@ -192,7 +207,6 @@ body {
 }
 .column2 {
     grid-column: 2;
-    width: 60vw;
     margin-bottom: 80px;
     overflow: hidden;
 
